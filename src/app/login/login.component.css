@@ -1,0 +1,19 @@
+/* Headband */
+#headband {
+  background-color: #00fffb;
+  opacity: 0.5;
+  height: 45px;
+}
+.headflex {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headflex span {
+  align-self: flex-end;
+}
+#title {
+  font-size: 18px;
+  font-weight: bold;
+}
