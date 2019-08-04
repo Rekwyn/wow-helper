@@ -1,19 +1,80 @@
+/* Parents */
+.container, .row, .parent {
+  height: 100%;
+}
+.parent {
+  display: flex;
+}
+
+/* Form */
+form {
+  margin: auto;
+  border: 1px solid rgb(196, 231, 240);
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
 /* Headband */
 #headband {
-  background-color: #00fffb;
-  opacity: 0.5;
+  background-color: rgb(221,237,246);
   height: 45px;
+  border-bottom: 1px solid rgb(196, 231, 240)
 }
 .headflex {
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: rgb(76, 117, 145);
 }
 .headflex span {
+  display: block;
   align-self: flex-end;
+  padding-bottom: 3px;
 }
 #title {
   font-size: 18px;
   font-weight: bold;
+}
+#forgotpass {
+  font-size: 12px;
+}
+
+/* Logo */
+#logo {
+  text-align: center;
+}
+#logo img {
+  width: 75px;
+  margin: 25px;
+}
+
+/* Inputs */
+.input-group {
+  padding: 10px 40px 10px 40px;
+}
+.input-group img {
+  width: 24px;
+}
+
+/* Login */
+#login {
+  text-align: center;
+  padding: 10px 20px 20px 20px;
+}
+
+/* Signup */
+#signup, .noacc {
+  width: 80%;
+  margin: 0 auto;
+}
+#signup {
+  margin-bottom: 10px;
+  border-top: 1px solid black;
+}
+.noacc {
+  text-align: center;
+  font-size: 12px;
+  display: block;
+  padding: 0px 25px 10px 25px;
 }
